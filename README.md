@@ -26,32 +26,31 @@ File Needed for the Test Data set:
 
 
 Step 1: Merging the Data
-- 1. Combined the train </li>
-- 2. Combined the test datas
+- 1. Combined the train data sets
+- 2. Combined the test data sets
 - 3. Added the column names corresponding to the values in the features.txt and added "subject" and "activity" columns 
 
 
 Step 2: Extracting only the measurements that have mean and std
-<ol/>
-<li/>1. Extracted only the values with "mean()" and "std()" because they are the only true "means" and "stds"</li>
-<li/>2. Kept the "subject" and "activity" columns because they were relevant in the big picture for step 5 </li>
-</ol>
+- 1. Extracted only the values with "mean()" and "std()" because they are the only true "means" and "stds"
+- 2. Kept the "subject" and "activity" columns because they were relevant in the big picture for step 5
+
 
 Step 3: Using descriptive activity names to name the activities
-1. Using the activity_labels.txt to determine what each activity number stood for
-2. Used gsubs to substitute out the number with the correct activity name
+- 1. Using the activity_labels.txt to determine what each activity number stood for
+- 2. Used gsubs to substitute out the number with the correct activity name
 
 Step 4: Appropriately label the dat set with descriptive variable names
-1. Felt the "features" column names were appropriate enough, but to adhere to the tidy data rules
-2. Changed "X/Y/X" to X/Y/Z Direction, to represent the value in that axis direction
-3. Eliminated the "()" such that there were no symbols in the variable names
-4. Eliminated the "-" such that there were no symbols in the variable names
-5. Changed "mean" to "MEAN" in order to try and provide some word separation in the variable name
-6. Changed "std" to "StdDev" in order to try and provide some word separation in the variable name
+- 1. Felt the "features" column names were appropriate enough, but to adhere to the tidy data rules
+- 2. Changed "X/Y/X" to X/Y/Z Direction, to represent the value in that axis direction
+- 3. Eliminated the "()" such that there were no symbols in the variable names
+- 4. Eliminated the "-" such that there were no symbols in the variable names
+- 5. Changed "mean" to "MEAN" in order to try and provide some word separation in the variable name
+- 6. Changed "std" to "StdDev" in order to try and provide some word separation in the variable name
 
 Step 5: Creating a separate data set that gets the average of each variable/column, for each activity and subject
-1. Used the dplyr package functions: group_by and summarise_each()
-2. Tidy Data is within the variable "tidyData"
+- 1. Used the dplyr package functions: group_by and summarise_each()
+- 2. Tidy Data is within the variable "tidyData"
 
 
 
