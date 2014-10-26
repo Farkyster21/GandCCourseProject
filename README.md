@@ -27,14 +27,17 @@ File Needed for the Test Data set:
 
 Step 1: Merging the Data
 <ol/>
-<li/> <p/> 1. Combined the train </p>  </li>
-<li/> <p/> 2. Combined the test datas </p></li>
-<li/> <p/> 3. Added the column names corresponding to the values in the features.txt and added "subject" and "activity" columns </p></li>
+<li/> 1. Combined the train </li>
+<li/>  2. Combined the test datas </li>
+<li/>  3. Added the column names corresponding to the values in the features.txt and added "subject" and "activity" columns </li>
 </ol>
 
+
 Step 2: Extracting only the measurements that have mean and std
-1. Extracted only the values with "mean()" and "std()" because they are the only true "means" and "stds"
-2. Kept the "subject" and "activity" columns because they were relevant in the big picture for step 5
+<ol/>
+<li/>1. Extracted only the values with "mean()" and "std()" because they are the only true "means" and "stds"</li>
+<li/>2. Kept the "subject" and "activity" columns because they were relevant in the big picture for step 5 </li>
+</ol>
 
 Step 3: Using descriptive activity names to name the activities
 1. Using the activity_labels.txt to determine what each activity number stood for
