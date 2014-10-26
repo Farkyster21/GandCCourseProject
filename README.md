@@ -28,8 +28,8 @@ File Needed for the Test Data set:
 Step 1: Merging the Data
 <ol/>
 <li/> <p/> 1. Combined the train </p>  </li>
-<li/> 2. Combined the test datas </li>
-<li/> 3. Added the column names corresponding to the values in the features.txt and added "subject" and "activity" columns </li>
+<li/> <p/> 2. Combined the test datas </p></li>
+<li/> <p/> 3. Added the column names corresponding to the values in the features.txt and added "subject" and "activity" columns </p></li>
 </ol>
 
 Step 2: Extracting only the measurements that have mean and std
