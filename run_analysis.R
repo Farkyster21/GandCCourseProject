@@ -86,3 +86,6 @@ names(dataMeanandStd) <- gsub("-std","StdDev",names(dataMeanandStd))
 ###average of each variable for each activity and each subject
 tidyData <- group_by(dataMeanandStd,activity, subject)
 tidyData <- summarise_each(tidyData,funs(mean))
+
+##Output the data to "tidydata.txt"
+write.table(tidyData, file = "tidyData.txt",row.names = FALSE)
